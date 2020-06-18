@@ -1,0 +1,5 @@
+Tareas pendientes del Andes
+
+- Editar ventana indices para eliminar indices con error (Nicolas y Juan)
+- Agregar Log y SQRT en botones par crear nuevas formulas (Nicolas y Juan)
+- Editar Repeticions (Nicolas y Juan)

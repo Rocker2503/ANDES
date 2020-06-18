@@ -1,0 +1,98 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1508904529" file="C:\Users\Nicolas\Documents\MATLAB\AndesV1.prj" location="C:\Users\Nicolas\Documents\MATLAB" name="AndesV1" target="target.mlapps" target-name="Package App">
+    <param.appname>AndesV1</param.appname>
+    <param.authnamewatermark>Juan Cordero - Nicolas Pradenas</param.authnamewatermark>
+    <param.email />
+    <param.company>CITRA</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\Nicolas\AppData\Local\Temp\tp0f0400e0_9d24_4b19_b11e_b78332d0a0a1.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>8ef65d0c-7b3c-4eaf-b63e-354a72cdf5bd</param.guid>
+    <unset>
+      <param.email />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\app2.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\HYPER\importsvc.m</file>
+      <file>C:\HYPER\relativereflectance.m</file>
+      <file>${PROJECT_ROOT}\acotarReflectancia.m</file>
+      <file>${PROJECT_ROOT}\agregarInstanciaIndice.m</file>
+      <file>${PROJECT_ROOT}\agregarNuevoIndice.m</file>
+      <file>${PROJECT_ROOT}\agregarTratamientoReflectancia.m</file>
+      <file>${PROJECT_ROOT}\backButton.png</file>
+      <file>${PROJECT_ROOT}\calculoReflectancia.m</file>
+      <file>${PROJECT_ROOT}\databaseConnectionInsert.m</file>
+      <file>${PROJECT_ROOT}\databaseConnectionSelect.m</file>
+      <file>${PROJECT_ROOT}\exportarCorrelaciones.m</file>
+      <file>${PROJECT_ROOT}\exportarIndicesNuevo.m</file>
+      <file>${PROJECT_ROOT}\exportarReflectanciaNuevo.m</file>
+      <file>${PROJECT_ROOT}\homeButton.png</file>
+      <file>${PROJECT_ROOT}\indices.m</file>
+      <file>${PROJECT_ROOT}\indicesBD.m</file>
+      <file>${PROJECT_ROOT}\IndicesCorrelaciones.mlapp</file>
+      <file>${PROJECT_ROOT}\IndicesNxM.mlapp</file>
+      <file>${PROJECT_ROOT}\inputsdlg2.m</file>
+      <file>${PROJECT_ROOT}\insertarCorrelacion.m</file>
+      <file>${PROJECT_ROOT}\interpolar.m</file>
+      <file>${PROJECT_ROOT}\leerArchivo.m</file>
+      <file>${PROJECT_ROOT}\modal.m</file>
+      <file>${PROJECT_ROOT}\ModalBD.mlapp</file>
+      <file>${PROJECT_ROOT}\modalcorrelacion.m</file>
+      <file>${PROJECT_ROOT}\NxM.mlapp</file>
+      <file>${PROJECT_ROOT}\openFileIcon.png</file>
+      <file>${PROJECT_ROOT}\readFilesNxM.mlapp</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Nicolas\Documents" name="MATLAB" optional="false">C:\Users\Nicolas\Documents\MATLAB</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2019b</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
